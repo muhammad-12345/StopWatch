@@ -1,0 +1,98 @@
+body{
+    height: 100vh;
+    background-color: rgb(53, 50, 50);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: darkslategrey;
+    height: 500px;
+    width: 1000px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+}
+
+header{
+    display: flex;
+    align-items: center;
+}
+
+#gold{
+    color: gold;
+    text-shadow: 0 0 10px rgba(255, 215, 0, 0.8), 0 0 20px rgba(255, 215, 0, 0.6), 0 0 30px rgba(255, 215, 0, 0.4), 0 0 40px rgba(255, 215, 0, 0.2);
+}
+
+.stopWatch{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: brown; */
+}
+
+#timer{
+    font-size: 50px;
+    color: white;
+}
+
+.button{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.startBtn {
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    border-color: yellowgreen;
+    border-style: solid;
+    border-width: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pauseBtn {
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    border-color: yellowgreen;
+    border-style: solid;
+    border-width: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stopBtn {
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    border-color: yellowgreen;
+    border-style: solid;
+    border-width: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.startBtn i,
+.pauseBtn i {
+    font-size: 30px; 
+}
+
+.stopBtn i{
+    font-size: 30px;
+    color: white;
+}
+
